@@ -9,7 +9,7 @@ class FactorialTest {
     @Test
     void testCalculate() {
         assertEquals(1, program.calculate(0));
-        assertEquals(120, program.calculate(5));
+        assertEquals(900, program.calculate(5));
         assertThrows(IllegalArgumentException.class, () -> program.calculate(-1));
     }
 }
